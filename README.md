@@ -49,7 +49,21 @@ https://github.com/ingafter60/rails-depot-ecommerce
 		6.1.5 Seeing the List of Products
 	        modified:   README.md
 	        modified:   app/views/products/_form.html.erb		
-2. Iteration A2: Making Prettier Listings
+	6.2.6 Iteration A2: Making Prettier Listings
+        modified:   README.md
+        new file:   app/assets/images/7apps.jpg
+        new file:   app/assets/images/adrpo.jpg
+        new file:   app/assets/images/crystal.jpg
+        new file:   app/assets/images/dcbang.jpg
+        new file:   app/assets/images/dpchat.jpg
+        new file:   app/assets/images/lorem.jpg
+        new file:   app/assets/images/rails.png
+        new file:   app/assets/images/ridocker.jpg
+        new file:   app/assets/images/ruby.jpg
+        modified:   app/assets/stylesheets/products.scss
+        modified:   app/views/layouts/application.html.erb
+        modified:   app/views/products/index.html.erb
+        modified:   db/seeds.rb
 
 7. Task B: Validation and Unit Testing
 
