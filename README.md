@@ -1,13 +1,35 @@
 # Agile Web Development with Rails 6 
 # Part II — Building an Ecommece Application 'depot'
-
+https://github.com/ingafter60/rails-depot-ecommerce
 
 ## 6. Task A: Creating the Application
 
 	6.1. Iteration A1: Creating the Product Maintenance Application
 		6.1.1 Creating a Rails Application
 		6.1.2 Creating the Database: MySQL DB
-        modified:   README.md
+        	modified:   README.md
+        6.1.3 Generating the Scaffold
+			> rails generate scaffold Product title:string description:text image_url:string price:decimal
+	        modified:   README.md
+	        new file:   app/assets/stylesheets/products.scss
+	        new file:   app/assets/stylesheets/scaffolds.scss
+	        new file:   app/controllers/products_controller.rb
+	        new file:   app/helpers/products_helper.rb
+	        new file:   app/models/product.rb
+	        new file:   app/views/products/_form.html.erb
+	        new file:   app/views/products/_product.json.jbuilder
+	        new file:   app/views/products/edit.html.erb
+	        new file:   app/views/products/index.html.erb
+	        new file:   app/views/products/index.json.jbuilder
+	        new file:   app/views/products/new.html.erb
+	        new file:   app/views/products/show.html.erb
+	        new file:   app/views/products/show.json.jbuilder
+	        modified:   config/routes.rb
+	        new file:   db/migrate/20201025134858_create_products.rb
+	        new file:   test/controllers/products_controller_test.rb
+	        new file:   test/fixtures/products.yml
+	        new file:   test/models/product_test.rb
+	        new file:   test/system/products_test.rb
         
 2. Iteration A2: Making Prettier Listings
 
