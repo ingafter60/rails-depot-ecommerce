@@ -9,7 +9,7 @@ https://github.com/ingafter60/rails-depot-ecommerce
 		6.1.2 Creating the Database: MySQL DB
         	modified:   README.md
         6.1.3 Generating the Scaffold
-			> rails generate scaffold Product title:string description:text image_url:string price:decimal
+		> rails generate scaffold Product title:string description:text image_url:string price:decimal
 	        modified:   README.md
 	        new file:   app/assets/stylesheets/products.scss
 	        new file:   app/assets/stylesheets/scaffolds.scss
@@ -30,7 +30,23 @@ https://github.com/ingafter60/rails-depot-ecommerce
 	        new file:   test/fixtures/products.yml
 	        new file:   test/models/product_test.rb
 	        new file:   test/system/products_test.rb
-        
+        6.1.4 Applying the Migration
+        > rails db:migrate
+	        modified:   db/migrate/20201025134858_create_products.rb
+	        new file:   db/schema.rb
+			mysql> DESC products;
+			+-------------+--------------+------+-----+---------+----------------+
+			| Field       | Type         | Null | Key | Default | Extra          |
+			+-------------+--------------+------+-----+---------+----------------+
+			| id          | bigint(20)   | NO   | PRI | NULL    | auto_increment |
+			| title       | varchar(255) | YES  |     | NULL    |                |
+			| description | text         | YES  |     | NULL    |                |
+			| image_url   | varchar(255) | YES  |     | NULL    |                |
+			| price       | decimal(8,2) | YES  |     | NULL    |                |
+			| created_at  | datetime(6)  | NO   |     | NULL    |                |
+			| updated_at  | datetime(6)  | NO   |     | NULL    |                |
+			+-------------+--------------+------+-----+---------+----------------+
+
 2. Iteration A2: Making Prettier Listings
 
 7. Task B: Validation and Unit Testing
