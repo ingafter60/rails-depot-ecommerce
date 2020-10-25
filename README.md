@@ -6,7 +6,9 @@
 
 	6.1. Iteration A1: Creating the Product Maintenance Application
 		6.1.1 Creating a Rails Application
-
+		6.1.2 Creating the Database: MySQL DB
+        modified:   README.md
+        
 2. Iteration A2: Making Prettier Listings
 
 7. Task B: Validation and Unit Testing
