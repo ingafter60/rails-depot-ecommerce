@@ -31,10 +31,10 @@ https://github.com/ingafter60/rails-depot-ecommerce
 	        new file:   test/models/product_test.rb
 	        new file:   test/system/products_test.rb
         6.1.4 Applying the Migration
-        > rails db:migrate
+        	> rails db:migrate
 	        modified:   db/migrate/20201025134858_create_products.rb
 	        new file:   db/schema.rb
-			mysql> DESC products;
+	        mysql> DESC products;
 			+-------------+--------------+------+-----+---------+----------------+
 			| Field       | Type         | Null | Key | Default | Extra          |
 			+-------------+--------------+------+-----+---------+----------------+
@@ -46,7 +46,9 @@ https://github.com/ingafter60/rails-depot-ecommerce
 			| created_at  | datetime(6)  | NO   |     | NULL    |                |
 			| updated_at  | datetime(6)  | NO   |     | NULL    |                |
 			+-------------+--------------+------+-----+---------+----------------+
-
+		6.1.5 Seeing the List of Products
+	        modified:   README.md
+	        modified:   app/views/products/_form.html.erb		
 2. Iteration A2: Making Prettier Listings
 
 7. Task B: Validation and Unit Testing
